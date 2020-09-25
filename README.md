@@ -10,5 +10,5 @@ Provides a few simple test programs for using the Google NLP API, including:
 * **NLPTest.txt** - A sample .txt file which can be analyzed via NLP_txt.py.
 
 ### Twitter_API
-Provides example programs showcasing a few capabilities of the Twitter API (utilzing the Tweepy tool), including:
+Provides example programs showcasing a few capabilities of the Twitter API (using [Tweepy](https://github.com/tweepy/tweepy)), including:
 ##### keyword_query.py
