@@ -13,7 +13,7 @@ import tweepy
 # access_key = ""
 # access_secret = ""
 
-def calc_score(handle):
+def calc_score(handle, tweetcount = 30):
 
     #authorize for Twitter and initialziation of Tweepy
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -34,7 +34,7 @@ def calc_score(handle):
     mnscore = float("INF") #associated score for most negative tweet
     
     #Request 10 tweets for query
-    tweets = api.search(q = handle,count=10)
+    tweets = api.search(q = handle,count=tweetcount)
     
     #Iterate through tweets and process
     for tweet in tweets:
