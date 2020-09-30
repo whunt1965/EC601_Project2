@@ -1,6 +1,8 @@
 # EC601_Project2
 Repository for EC601 Project2 in which I explore uses of the Twitter API and Google NLP API
 
+BraggingRights application developed as part of Phase 2 of Project2 can be found [here](https://github.com/whunt1965/BraggingRights)
+
 ## Contents
 
 ### Google_NLP
